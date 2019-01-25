@@ -90,10 +90,10 @@ ynh_app_setting_set $app final_path $final_path
 ynh_setup_source "$final_path"
 
 #==============================================
-# INSTALL EMBY
+# INSTALL Jellyfin
 #==============================================
 
-dpkg --install  $final_path/emby-server-deb*
+dpkg --install  $final_path/jellyfin_10.0.2-1_amd64.deb*
 
 #=================================================
 # NGINX CONFIGURATION
