@@ -10,8 +10,8 @@ final_path=/opt/yunohost/$app
 # Source YunoHost helpers
 source /usr/share/yunohost/helpers
 
-# Stop emby-server service
-systemctl stop emby-server
+# Stop jellyfin service
+systemctl stop jellyfin
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
@@ -22,10 +22,10 @@ ynh_app_setting_set $app final_path $final_path
 ynh_setup_source "$final_path"
 
 #==============================================
-# INSTALL PLEX
+# INSTALL JELLYFIN
 #==============================================
 
-dpkg --install $final_path/emby-server-deb*
+dpkg --install $final_path/jellyfin_*
 
 #=================================================
 # NGINX CONFIGURATION
@@ -51,6 +51,6 @@ dpkg --install $final_path/emby-server-deb*
 #  ynh_app_setting_set "$app" unprotected_uris "/"
 #fi
 
-# Start emby-server service
-systemctl start emby-server
+# Start jellyfin service
+systemctl start jellyfin
 
