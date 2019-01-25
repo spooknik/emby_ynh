@@ -2,7 +2,7 @@
 Jellyfin
 
 - [Yunohost project](https://yunohost.org)
-- [Emby website](https://jellyfin.github.io/)
+- [Jellyfin website](https://jellyfin.github.io/)
 
 ![](https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/banner-logo-solid.svg?sanitize=true)
 
