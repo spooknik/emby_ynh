@@ -13,7 +13,7 @@ Jellyfin is a fork of Emby media server that has no premium licenses or features
 
  1. App can be installed by YunoHost **admin web-interface** or by **running following command**:
 
-         $ sudo yunohost app install https://github.com/spooknik/jellyfin_ynh
+         $ sudo yunohost app install https://github.com/pjpmosteiro/jellyfin_ynh
  1. Admin username is : **root**.
  
  2. You **must install the app to /emby** otherwise it will not work. This is a [hardcoded limitation](https://github.com/jellyfin/jellyfin/issues/337) for Jellyfin.
@@ -21,5 +21,5 @@ Jellyfin is a fork of Emby media server that has no premium licenses or features
  
 ### Upgrade this package:
 
-        $ sudo yunohost app upgrade embyserver -u https://github.com/spooknik/jellyfin_ynh
+        $ sudo yunohost app upgrade embyserver -u https://github.com/pjpmosteiro/jellyfin_ynh
 
