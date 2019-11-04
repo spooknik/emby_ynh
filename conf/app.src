@@ -1,4 +1,4 @@
-SOURCE_URL=https://repo.jellyfin.org/releases/server/debian/jellyfin_10.3.7-1_amd64.deb
+SOURCE_URL=https://github.com/pjpmosteiro/jellyfin_ynh/raw/master/jellyfin_10.4.1-1_amd64.deb
 SOURCE_SUM=236efdb498648e2f26dae29e1de0ae4d470dd8ed1ae34002697f9a5eed5de843
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=deb
